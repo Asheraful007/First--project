@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{   
+    background-position:center;
+    background-size:cover;
+}
+
+     /*navbar section start*/
+    .navbar{
+        margin:0px 20px;
+        box-sizing:border-box;
+    }
+    .navbar-brand{
+        color: rgb(240, 0, 112);
+        font-family:sans-serif;
+        margin-left:20px;
+        font-weight:bold;
+        letter-spacing:2px;
+        font-size:30px;       
+    }
+    .navbar .nav-link{
+        margin-left:20px ;
+         color:rgb(240, 0, 112);
+         font-family:sans-serif;
+         font-weight:bolder;
+    }
+    .navbar-toggler{
+        margin-right:20px;    
+    }
+    #img1{
+        border-radius:10px;
+    }
+    a{
+        text-decoration:none;
+    }
+    /*navbar section end*/
+
+    /*card section start*/
+    .rating{
+        color:#ff523b;
+    }
+    .card-text{
+        font-family: sans-serif;
+    }
+    .card{
+        box-shadow: 4px 4px 6px rgb(182, 167, 167);
+        padding: 10px;
+        border-radius: 5px; 
+        gap: 5px;
+    } 
+    .card:hover{
+        box-shadow: 4px 4px 6px rgb(182, 167, 167);
+        padding: 10px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        transition:1s; 
+        transform: scale(1.02);       
+    } 
+    /* card section end*/
+
+    /*more-item section start*/
+    .more-item{
+        margin-top:30px;
+        text-align: center;
+        padding: 30px;     
+    }
+    .more-item h1{
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .more-item img{
+        margin-top:15px;
+    }
+    .more-item img:hover{
+        margin-top:15px;
+        transition: .3s;
+        transform: scale(1.03);
+        box-shadow:3px 3px 4px gray;
+        cursor: pointer;
+    }
+    .more-item .rating{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+
+
+    .carousel-item img{
+        width:100%;
+        height: 500px;
+    }
+    /*more-item section end*/
+   
+     /*.background{
+        margin: 70px 0px;
+        max-width: 100%;
+        height: 400px;
+        background-image: url(./photo/background1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;    
+    }
+
+    /*contact section start*/
+    .contact{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-left: 10px solid #ff523b;
+        border-radius: 5px;
+    }
+    .contact h1{
+        font-weight: bold;
+        font-size:5em;
+        color: #de1a00;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        letter-spacing: 4px;
+    }
+    .contact h3{
+        font-weight: bold;
+        margin: 20px;
+        font-style: italic;
+    }
+    /*contact section end*/
+
+    /*footer section start*/
+    .footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+    }
+    .grid-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-gap: 10px;
+        padding: 10px;   
+        font-style: italic; 
+    }
+    .grid-item a{
+        text-decoration: none;
+    }
+    .grid-item h2{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .grid-1 p{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .grid-1 i{
+        font-size: 20px;
+        margin-right: 8px;
+    }
+    .grid-1 .social i{
+        font-size: 35px;
+        color: white;
+        padding: 8px;
+    }
+    .grid-1 .social a :hover{
+        color:blue;
+        transition: 0.3s;
+        transform: scale(1.04);
+    }
+    .grid-2{
+        padding: 10px;
+    }
+    .grid-2 p{
+        font-size: 20px;
+    }
+    
+    .grid-3{
+        padding: 10px;
+        margin: 0px auto;
+        
+    }
+    .grid-3 i,span{
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    .grid-3 span{
+        font-size: 20px;
+    }
+    .grid-3 i{
+        margin-right: 8px;
+    }
+    .main-footer{
+        background-color: black;
+        color: white;
+        width: 100%;
+       
+    }
+    .main-footer p{
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+
+    @media screen and (max-width:982px){
+        .grid-item{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
+            grid-row-gap: 40px;
+            text-align: center;
+            justify-content: center;
+        }
+        .grid-1,.grid-2{
+            border-bottom: 1px solid white;
+        }
+        
+    }
+
+
+
+
+
+    
+    
+
+
+
+    /*footer section end*/
+    
